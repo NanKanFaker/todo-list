@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - To Do List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <section class="todo-list">
+    <div class="list-title">
+      <h1>我的代辦清單  Todo-List</h1>
+      <hr>
+    </div>
+    <div class="addList">
+      <input type="text" id='inputContent' placeholder='請輸入...'>
+      <button type='button' onclick='addTask()'><i class='fas fa-plus'></i></button>
+    </div>
+    <ul class="list">
+    </ul>
+    <div class="list-bottom">
+      <h2 class='totalFinish'><span>&#127873;</span>你已完成了項任務</h2>
+      <button type='button' onclick = 'deletAll()'>全部清除</button>
+    </div>
+  </section>
+</main>
+<!-- partial -->
+  <script src='https://kit.fontawesome.com/51ff7fdba4.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
